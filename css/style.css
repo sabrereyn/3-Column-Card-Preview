@@ -1,0 +1,117 @@
+html {
+	height: 100vh;
+}
+body {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
+	text-align: left;
+	background-color: hsl(0, 0%, 95%);
+	color: hsl(0, 0%, 95%);
+	margin: 0;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: #000;
+	/* position: fixed; */
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.container {
+	margin: 5% 10%;
+	display: flex;
+	justify-content: center;
+	border-radius: 15px;
+}
+
+.card {
+	width: 15%;
+	padding: 5% 5%;
+}
+
+.card-h1 {
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+.card-p {
+	line-height: 1.7;
+	margin-top: 0;
+	margin-bottom: 30%;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-btn {
+	font-family: inherit;
+	font-size: inherit;
+	border-radius: 24px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	background-color: white;
+	padding: 5% 11%;
+	margin-bottom: 7%;
+}
+
+.card-btn:hover {
+	background-color: inherit;
+	color: white;
+}
+
+.first {
+	background-color: hsl(31, 77%, 52%);
+	border-radius: 10px 0 0 10px;
+}
+
+.first button {
+	color: hsl(31, 77%, 52%);
+}
+
+.second {
+	background-color: hsl(184, 100%, 22%);
+}
+
+.second button {
+	color: hsl(184, 100%, 22%);
+}
+
+.third {
+	background-color: hsl(179, 100%, 13%);
+	border-radius: 0 10px 10px 0;
+}
+
+.third button {
+	color:hsl(179, 100%, 13%);
+}
+
+@media (max-width: 1024px) {
+	.card {
+		width: 20%;
+	}
+}
+
+@media (max-width: 426px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.card {
+		width: inherit;
+		padding: 10% 10%;
+	}
+
+	.card-p {
+		margin-bottom: 15%;
+	}
+
+	.first {
+		border-radius: 10px 10px 0 0;
+	}
+
+	.third {
+		border-radius: 0 0 10px 10px;
+	}
+}
