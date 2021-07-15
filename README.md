@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/sabrereyn/3-Column-Card-Preview](https://your-solution-url.com)
-- Live Site URL: [https://sabrereyn.github.io/3-Column-Card-Preview/]
+- Live Site URL: [https://sabrereyn.github.io/3-Column-Card-Preview/](https://your-live-site-url.com)
 
 ## My process
 
