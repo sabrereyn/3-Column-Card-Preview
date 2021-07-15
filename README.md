@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/sabrereyn/3-Column-Card-Preview](https://your-solution-url.com)
+- Live Site URL: [https://sabrereyn.github.io/3-Column-Card-Preview/]
 
 ## My process
 
